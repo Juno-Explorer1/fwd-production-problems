@@ -4,10 +4,10 @@
   `x` as the variable inside the function, however.
 */
 
-x = 5;
+let num = 5;
 
 function double(num) {
-  let x = num * 2;
+  var x = num * 2;
   return x;
 }
 
