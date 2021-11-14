@@ -9,6 +9,7 @@ let num = 5;
 function double(num) {
   var x = num * 2;
   return x;
+  console.log(x);
 }
 
 double(5);
